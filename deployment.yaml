@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: apache2
-        image: test
+        image: miksveg/prt
         ports:
         - containerPort: 80
