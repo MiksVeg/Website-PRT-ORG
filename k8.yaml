@@ -18,6 +18,7 @@ spec:
       containers:
       - name: apache2
         image: miksveg/prt
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
 
